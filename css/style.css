@@ -230,8 +230,9 @@ cursor: pointer;
 .header__bg
 {
   object-fit: cover;
+  margin-top:4rem;
   max-width:100%;
-  max-height: 57rem ;
+  max-height: 20rem ;
 }
 img
 {
@@ -295,5 +296,39 @@ img
 .footer__list:first-child
 {
   display: none;
+}
+.project__content-title
+{
+  margin-left: .5rem;
+}
+.footer__list {
+  width: 50%;
+}
+.footer__menu {
+  margin-left: 0;
+}
+.footer__item {
+  padding-left: 3rem;
+}
+.footer__button
+{
+  margin-bottom: 5rem;
+}
+.wrapper__heading
+  {
+    margin :2.5rem  auto;
+  }
+.footer
+  {
+    margin-bottom: 5rem;
+  }
+.header__item {
+    height: 1rem;
+    width: 1rem;
+}
+.header__list
+{
+  padding: 0;
+  margin: 2rem auto;
 }
 }
